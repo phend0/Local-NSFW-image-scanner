@@ -1,0 +1,21 @@
+# NSFW Image Scanner Requirements
+# Core dependencies
+torch>=1.9.0
+torchvision>=0.10.0
+transformers>=4.20.0
+timm>=0.6.0
+
+# Image processing
+Pillow>=8.0.0
+opencv-python>=4.5.0
+numpy>=1.20.0
+
+# NSFW detection models
+opennsfw2>=0.10.0
+
+# GUI framework
+tkinter  # Usually included with Python
+
+# Optional: GPU acceleration (uncomment if you have CUDA)
+# torch[cuda]
+# torchvision[cuda]
